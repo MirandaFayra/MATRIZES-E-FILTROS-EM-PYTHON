@@ -3,8 +3,12 @@
 n1 = input ('Digite um número: ')
 n2 = input ('Digite um número: ')
 
+# DECLARAR VARIAVEIS
+
 n1 = int (n1)
 n2 = int (n2)
+
+# APLICAR CONDIÇÕES
 
 if n1 > n2:
     print (str(n1) +' é maior que ' + str(n2))
